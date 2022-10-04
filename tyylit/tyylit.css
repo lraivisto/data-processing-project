@@ -1,0 +1,48 @@
+body{
+    background-color: bisque;
+}
+main,form{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+input[readonly]{
+    background-color: lightgrey;
+}
+
+.virhe{
+    border: dashed red 1px;
+    padding:1em;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    background-color: white;
+}
+
+table,td,th{
+    border:1px solid black;
+    padding:0.5em;
+
+}
+th{
+    background-color: khaki;
+}
+
+tr:nth-child(odd){
+    background-color: cyan;
+}
+
+button{
+    font-family: sans-serif;
+    font-size: 1em;
+    width:13em;
+    height:2em;
+    border:0.1em solid black;
+    border-radius: 0.5em;
+    box-shadow :0.2em 0.2em 0.3em rgb(0, 0, 0);
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+}

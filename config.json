@@ -1,0 +1,15 @@
+{
+    "port":3000,
+    "host":"localhost",
+    "varastokansio":"csvvarasto",
+    "kirjastokansio":"kirjasto",
+    "sivumallit":{
+        "kansio":"sivumallit",
+        "valikko":"valikko.html",
+        "kaikki":"kaikkiHenkilot.html",
+        "hae":"haeHenkilo.html",
+        "tulos":"henkiloSivu.html",
+        "status":"statusSivu.html",
+        "lomake":"lomake.html"
+    }
+}

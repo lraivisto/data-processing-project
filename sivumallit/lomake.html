@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>##OTSIKKO##</title>
+    <link rel="stylesheet" href="/tyylit/tyylit.css" type="text/css">
+</head>
+<body>
+    <main>
+        <h1>##OTSIKKO##</h1>
+        <form action="##TOIMINTO##" method="POST">
+            <div>
+                <p>
+                    <label for="id">Id:</label>
+                    <input type="text" id="id" name="id" size="5"
+                    value="##ID.VALUE##" ##ID.READONLY## >
+                </p>
+                <p>
+                    <label for="etunimi">Etunimi:</label>
+                    <input type="text" id="etunimi" name="etunimi" size="15"
+                    value="##ETUNIMI.VALUE##" ##ETUNIMI.READONLY## >
+                </p>
+                <p>
+                    <label for="sukunimi">Sukunimi:</label>
+                    <input type="text" id="sukunimi" name="sukunimi" size="25"
+                    value="##SUKUNIMI.VALUE##" ##SUKUNIMI.READONLY## >
+                </p>
+                <p>
+                    <label for="osasto">Osasto:</label>
+                    <input type="text" id="osasto" name="osasto" size="25"
+                    value="##OSASTO.VALUE##" ##OSASTO.READONLY## >
+                </p>
+                <p>
+                    <label for="palkka">Palkka:</label>
+                    <input type="text" id="palkka" name="palkka" size="25"
+                    value="##PALKKA.VALUE##" ##PALKKA.READONLY## >
+                </p>
+            </div>
+            <button type="submit">Lähetä</button>
+        </form>
+        <a href="/"><button>Valikko</button></a>
+    </main>  
+</body>
+</html>
